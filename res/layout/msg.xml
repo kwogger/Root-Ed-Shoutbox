@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:layout_width="fill_parent" android:paddingLeft="2dip"
+	android:paddingRight="7dip" android:paddingBottom="2dip"
+	android:paddingTop="2dip">
+	<TextView android:layout_height="wrap_content" android:id="@android:id/text1"
+		android:layout_width="fill_parent"
+		android:textColor="@color/msg_text_1" android:background="@color/msg_frgnd"
+		android:textColorLink="@color/msg_link" android:text="@string/shout_loading"/>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/text3"
+		android:layout_below="@android:id/text1"
+		android:layout_alignParentRight="true" android:background="@color/msg_frgnd" android:text="@string/shout_ip"/>
+	<TextView android:layout_height="wrap_content" android:id="@android:id/text2"
+		android:background="@color/msg_frgnd" android:layout_below="@android:id/text1" android:layout_toLeftOf="@id/text3"
+		android:layout_alignParentLeft="true" android:gravity="right"
+		android:paddingRight="5dp" android:layout_width="wrap_content"
+		android:textColor="@color/msg_text_2" android:text="@string/shout_time"/>
+</RelativeLayout>

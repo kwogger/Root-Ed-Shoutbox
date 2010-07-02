@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_userlist_url">Invalid user list URL</string>
+    <string name="error_userlist_io">Connection error while loading user list</string>
+    <string name="error_send_nocode">Could not send message, not connected to shoutbox</string>
+    <string name="error_send_morechar">Minimum of two characters required</string>
+    <string name="error_send_banned">Your message contains a banned phrase, please edit your message</string>
+    <string name="error_send_unknown">Issue when sending...</string>
+    <string name="error_send_url">Invalid sending URL</string>
+    <string name="error_send_io">Connection error while sending message</string>
+    <string name="error_code_url">Invalid session code URL</string>
+    <string name="error_code_io">Connection error while obtaining session code</string>
+    <string name="error_update_loadurl">Error loading update URL</string>
+    <string name="error_update_url">Invalid update URL</string>
+    <string name="error_update_io">Connection error while obtaining update</string>
+    <string name="error_update_parse">Error parsing update</string>
+    <string name="error_update_parser">Error loading update parser</string>
+    <string name="error_history_url">Invalid history URL</string>
+    <string name="error_history_io">Connection error while obtaining history</string>
+    <string name="error_history_unknown">Error loading history</string>
+    <string name="error_pref_name">Please input a name to use on the shoutbox</string>
+</resources>

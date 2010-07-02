@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Root-Ed ShoutBox</string>
+	<string name="diag_name_title">User Info</string>
+	<string name="diag_name_button">Done</string>
+	<string name="diag_name_name">Name</string>
+	<string name="diag_name_website">Website</string>
+	<string name="diag_users_title">Users</string>
+	<string name="diag_users_button">Close</string>
+	<string name="diag_links_title">Links</string>
+	<string name="hist_loading">Loading...</string>
+	<string name="main_message">Message</string>
+	<string name="main_loading">Loading...</string>
+	<string name="shout_loading">Loading Shout...</string>
+	<string name="shout_time">Time</string>
+	<string name="shout_ip">IP</string>
+	<string name="status_userlist">Loading User List...</string>
+	<string name="status_connecting">Connecting...</string>
+	<string name="status_startup">Not connected</string>
+	<string name="status_noconnect">Could not connect to shoutbox</string>
+	<string name="status_connect">Connected to shoutbox</string>
+	<string name="status_sending">Sending...</string>
+	<string name="menu_users">Users</string>
+	<string name="menu_history">History</string>
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_pref">Settings</string>
+	<string name="menu_quit">Quit</string>
+	<string name="title_prefs">Root-Ed ShoutBox - Settings</string>
+    <string name="title_history">Root-Ed ShoutBox - History</string>
+    <string name="url_userlist">%s&amp;online</string>
+    <string name="url_send">%s=process</string>
+    <string name="url_code">%s</string>
+    <string name="url_update_new">%s=update</string>
+    <string name="url_update">%s=update&amp;fid=p</string>
+    <string name="url_history">%s&amp;view=</string>
+    <string name="url_base">http://www5.shoutmix.com/?broskii</string>
+</resources>

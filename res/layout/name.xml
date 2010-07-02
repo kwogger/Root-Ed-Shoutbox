@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" android:layout_width="fill_parent">
+	<TextView android:text="@string/diag_name_name"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<EditText android:text="@string/pref_name_def" android:id="@android:id/text1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="text"/>
+	<TextView android:text="@string/diag_name_website"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<EditText android:text="@string/pref_website_def" android:id="@android:id/text2"
+		android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textUri"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/menu_users" android:id="@+id/menu_users"
+		android:icon="@android:drawable/ic_menu_my_calendar"></item>
+	<item android:title="@string/menu_history" android:id="@+id/menu_history"
+		android:icon="@android:drawable/ic_menu_recent_history"></item>
+	<item android:title="@string/menu_refresh" android:id="@+id/menu_refresh"
+		android:icon="@android:drawable/ic_menu_rotate"></item>
+	<item android:title="@string/menu_pref" android:id="@+id/menu_pref"
+		android:icon="@android:drawable/ic_menu_preferences"></item>
+	<item android:title="@string/menu_quit" android:id="@+id/menu_quit"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+</menu>

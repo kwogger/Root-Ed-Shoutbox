@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="ShoutBox Settings" />
+	<EditTextPreference android:title="@string/pref_name_title"
+		android:key="@string/pref_name_key" android:persistent="true"
+		android:defaultValue="@string/pref_name_def" />
+	<EditTextPreference android:title="@string/pref_website_title"
+		android:key="@string/pref_website_key" android:persistent="true"
+		android:defaultValue="@string/pref_website_def" />
+	<PreferenceCategory android:title="Application Settings" />
+	<CheckBoxPreference android:title="@string/pref_delold_title"
+		android:persistent="true" android:key="@string/pref_delold_key"
+		android:defaultValue="false" />
+	<PreferenceCategory android:title="Notification Settings" />
+	<CheckBoxPreference android:key="@string/pref_notify_key"
+		android:title="@string/pref_notify_title" android:defaultValue="false" />
+	<CheckBoxPreference android:title="@string/pref_vibrate_title"
+		android:persistent="true" android:key="@string/pref_vibrate_key"
+		android:defaultValue="false" android:dependency="@string/pref_notify_key" />
+	<RingtonePreference android:key="@string/pref_sound_key"
+		android:title="@string/pref_sound_title" android:showSilent="true"
+		android:showDefault="true" android:ringtoneType="all"
+		android:dependency="@string/pref_notify_key" />
+	<CheckBoxPreference android:key="@string/pref_led_key"
+		android:defaultValue="false" android:title="@string/pref_led_title"
+		android:dependency="@string/pref_notify_key" />
+</PreferenceScreen>

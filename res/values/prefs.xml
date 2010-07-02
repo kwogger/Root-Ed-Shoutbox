@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_pages_key">pages</string>
+    <string name="pref_name_title">Name</string>
+    <string name="pref_website_title">Website</string>
+    <string name="pref_delold_title">Remove old shouts</string>
+    <string name="pref_notify_title">Notify on new shout</string>
+    <string name="pref_vibrate_title">Vibrate on new shout</string>
+    <string name="pref_sound_title">Sound to play on new shout</string>
+    <string name="pref_led_title">Flash LED on new shout</string>
+    <string name="pref_name_key">name</string>
+    <string name="pref_website_key">website</string>
+    <string name="pref_delold_key">delold</string>
+    <string name="pref_notify_key">notify</string>
+    <string name="pref_vibrate_key">vibrate</string>
+    <string name="pref_sound_key">sound</string>
+    <string name="pref_led_key">led</string>
+    <string name="pref_name_def"></string>
+    <string name="pref_website_def"></string>
+</resources>

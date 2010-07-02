@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="msg_frgnd">#FF2A2A2A</color>
+	<color name="msg_link">#FFFF0000</color>
+	<color name="msg_text_2">#FFEFEFEF</color>
+	<color name="msg_text_1">#FFFFFFFF</color>
+	<color name="status_on">#FFFF0000</color>
+	<color name="status_off">#FF666666</color>
+	<color name="list_bkgnd">#FF000000</color>
+</resources>

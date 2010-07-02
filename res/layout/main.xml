@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_height="wrap_content" android:id="@+id/InfoTextView"
+		android:text="@string/status_startup" android:layout_width="fill_parent"
+		android:gravity="center_horizontal" android:layout_marginTop="-7dip"
+		android:layout_alignParentBottom="true" />
+	<ImageButton android:layout_height="wrap_content"
+		android:id="@+id/SendButton" android:layout_width="wrap_content"
+		android:src="@android:drawable/stat_sys_upload_done"
+		android:layout_above="@+id/InfoTextView"
+		android:layout_alignParentRight="true" />
+	<EditText android:layout_height="wrap_content" android:id="@+id/MessageEditText"
+		android:hint="@string/main_message" android:inputType="textCapSentences"
+		android:layout_width="wrap_content" android:imeOptions="actionSend"
+		android:maxLength="300" android:layout_above="@+id/InfoTextView"
+		android:layout_alignParentLeft="true" android:layout_toLeftOf="@+id/SendButton" />
+	<ListView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:fadingEdge="vertical"
+		android:layout_alignParentTop="true" android:layout_above="@+id/MessageEditText"
+		android:id="@android:id/list" android:background="@color/list_bkgnd"
+		android:divider="@color/list_bkgnd" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@android:id/empty"
+		android:layout_centerInParent="true" android:text="@string/main_loading" />
+</RelativeLayout>
